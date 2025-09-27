@@ -14,6 +14,7 @@ public class OperatorAritmatika {
 		A1 = keyboard.nextInt();
 		System.out.print("input angka -2: ");
 		A2 = keyboard.nextInt();
+		keyboard.close();
 		System.out.println("Operator Penjumlahan");
 		hasil = A1 + A2; // penjumlahan
 		System.out.println("Hasil = " + hasil);
@@ -29,11 +30,6 @@ public class OperatorAritmatika {
 		System.out.println("Operator sisa bagi");
 		hasil = A1 % A2; // sisa bagi
 		System.out.println("Hasil = " + hasil);
-		
-		
-		
-		
-		
 	}
 
 }
