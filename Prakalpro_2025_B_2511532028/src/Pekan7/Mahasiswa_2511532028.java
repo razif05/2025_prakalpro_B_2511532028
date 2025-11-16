@@ -5,8 +5,8 @@ public class Mahasiswa_2511532028 {
 	private int nim;
 	private String nama, nim2;
 	
-	public void setNim (String x) {
-		this.nim=x;
+	public void setNim (int nim) {
+		this.nim=nim;
 	}
 	public void setNim2 (String nim2) {
 		this.nim2=nim2;
